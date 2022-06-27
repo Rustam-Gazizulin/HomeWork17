@@ -3,7 +3,7 @@
 # чтобы создать БД с данными 
 
 from flask import Flask, request
-from flask_restx import Api, Resource
+
 from flask_sqlalchemy import SQLAlchemy
 from marshmallow import Schema, fields
 
